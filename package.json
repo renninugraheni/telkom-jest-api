@@ -1,0 +1,23 @@
+{
+  "name": "AutomationTestAPI",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --cache --ext ts '**/*.ts' --ignore-pattern 'generated'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.4.0",
+    "jest": "^28.1.0",
+    "jest-html-reporters": "^1.2.1",
+    "jest-json-schema": "^5.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "supertest": "^4.0.2"
+  }
+}
