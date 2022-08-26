@@ -13,3 +13,11 @@ describe('test api sign up user', () => {
         expect(response.body).toMatchSchema(schema.schema);
     });
 });
+
+describe('negative test api sign up user', () => {
+    test('user failed sign up using empty password', async () => {
+        const response = await ep.epPost(data.emptyData);
+        expect(response.status).toEqual(422);
+        expect(response.body).toMatchSnapshot();
+    });
+});

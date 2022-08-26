@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`negative test api sign up user user failed sign up using empty password 1`] = `
+Object {
+  "errors": Object {
+    "first_name": Array [
+      "can't be blank",
+    ],
+    "password": Array [
+      "Can't be blank",
+    ],
+  },
+  "message": "Sign up failure",
+}
+`;

@@ -12,6 +12,19 @@ const dataPost = {
     }
 };
 
+const emptyData = {
+    user: {
+        currency_id: 2,
+        email: faker.internet.email(),
+        first_name: "",
+        last_name: "test",
+        password: "",
+        phone_number: faker.phone.number('+62-###########'),
+        user_type: "User"
+    }
+};
+
 module.exports = {
 dataPost,
+emptyData,
 };
