@@ -1,5 +1,5 @@
 # Telkom-jest-api
-Telkom-jest-api is a project to answer the pre-test Test Engineer. I hope this becomes a consideration to be accepted as a SQAE at Telkom.
+Telkom-jest-api is a project to answer the post-test SQAE. I hope this becomes a consideration to be accepted as a SQAE at Telkom.
 # Requirements
 - Node version 8 or higher
 - Jest
