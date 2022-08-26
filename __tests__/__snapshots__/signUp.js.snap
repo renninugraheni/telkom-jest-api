@@ -1,6 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`negative test api sign up user user failed sign up using empty password 1`] = `
+exports[`negative test api sign up user user failed sign up using duplicate email 1`] = `
+Object {
+  "errors": Object {
+    "email": Array [
+      "is already taken",
+    ],
+  },
+  "message": "Sign up failure",
+}
+`;
+
+exports[`negative test api sign up user user failed sign up using empty password and first name 1`] = `
 Object {
   "errors": Object {
     "first_name": Array [
